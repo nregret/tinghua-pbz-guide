@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-11-01",
+  "use_case": "stylized-concept",
+  "prompt": "Use case: stylized-concept. Asset type: production-ready transparent character illustration for a Chinese pastel-pink game guide website. Create an original unofficial ChatGPT-inspired moe white-dragon woman mascot, clearly a young adult woman about 22, friendly and intelligent. Three-quarter upper-body portrait from the hips up, facing the viewer with a gentle cheerful smile. Long flowing pearl-white hair with a few pale mint strands, expressive emerald-green eyes, two small elegant ivory dragon horns with mint tips, an abstract mint six-petal flower hair clip, a small curling white dragon tail visible near her waist. A modest white fantasy librarian blouse/dress, mint neck bow and cuffs, soft blush-pink short capelet and rose-pink ribbon details; fully clothed, no cleavage. She delicately holds one tiny luminous cyan-blue memory flower in one hand at chest height, the other hand relaxed in a friendly guiding gesture. Premium polished Japanese moe anime / visual-novel key art: fine clean linework, tender pastel cel shading, luminous hair, delicate fabric and eyes, precise natural hands. Light romantic pink and fresh mint accents on mostly pearl-white clothing. Entire head, both horns, all hair ends and both hands comfortably inside the square frame; character occupies most of the canvas; clear silhouette suitable at 340px tall in a website header. Isolated on a genuinely transparent background with clean alpha edges. No scenery, no ground, no card frame, no lettering, no logo, no watermark, no extra characters. Do not imitate any specific existing artist or exact fan character costume; original composition and outfit inspired only by broad white-dragon/white-and-mint GPT-personification motifs.",
+  "role": "unofficial original ChatGPT-inspired white dragon mascot",
+  "reference_sources": [
+    "https://genderswapai.com/zh-CN/ai-gijinka",
+    "https://wulusai.net/AI/AI%E5%A8%98%E6%A1%A3%E6%A1%88"
+  ],
+  "reference_note": "Research for broad community motifs only; no reference artwork was supplied to generation."
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tinghua-pbz-guide.nnegret-7695.chatgpt.site/sitemap.xml
