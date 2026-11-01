@@ -2,6 +2,8 @@
 
 免费、纯静态的中文攻略查询站。浅粉色界面，按需查位置，不记录个人收集进度。
 
+网站：https://tinghua-pbz-guide.pages.dev
+
 - 128 条已收录位置、37 个记忆系列、8 个区域。
 - 中文名称、铃铛、地点和路线关键词搜索；区域与系列组合筛选。
 - 内置 226 张地图和实机图，站内放大、切换与查看相关位置。
@@ -31,17 +33,25 @@ node --check dist/app.js
 
 ## 部署到 Cloudflare Pages
 
-网站不需要构建，静态产物目录为 `dist`。使用已授权的 Cloudflare 账户：
+本项目使用 GitHub 集成：`main` 为生产分支，后续推送由 Cloudflare Pages 自动部署。
+
+| 设置 | 值 |
+| --- | --- |
+| 框架预设 | None |
+| 构建命令 | `npm run check`（只做资料与文件校验，不编译） |
+| 构建输出目录 | `dist` |
+| 根目录 | 仓库根目录 |
+
+网站不需要后端、数据库或环境密钥。复制部署时，在 Cloudflare Pages 选择自己的 GitHub 仓库并使用以上配置即可。
+
+也可在本地通过 Wrangler 直接上传到另建的直接上传项目：
 
 ```sh
 npx wrangler login
-npx wrangler pages project create tinghua-pbz-guide --production-branch main
-npx wrangler pages deploy dist --project-name tinghua-pbz-guide --branch main
+npx wrangler pages deploy dist --project-name YOUR_PROJECT_NAME --branch main
 ```
 
-已创建项目后，后续更新只需提交代码并重新执行 `pages deploy`。此方案使用直接上传；本仓库不包含账户令牌，也不会自动向 Cloudflare 部署。
-
-若另行通过 Cloudflare 的 Git 集成创建项目，框架选择 `None`，无需构建命令，输出目录设为 `dist`。
+账户凭据由 Cloudflare 官方工具或 Git 集成管理，不应提交到仓库。
 
 ## 目录
 
